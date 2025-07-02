@@ -1,0 +1,14 @@
+# requirements_minimal.txt - Essential API Testing Dependencies Only
+
+# Core testing framework
+pytest==7.4.3
+pytest-html==4.1.1
+
+# HTTP requests - the core of API testing
+requests==2.31.0
+
+# JSON handling
+jsonschema==4.20.0
+
+# Test reporting
+pytest-json-report==1.5.0

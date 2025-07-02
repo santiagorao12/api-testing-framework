@@ -1,0 +1,36 @@
+# requirements.txt - Python API Testing Framework Dependencies
+
+# Core testing framework
+pytest==7.4.3
+pytest-html==4.1.1
+pytest-xdist==3.5.0
+
+# HTTP requests and API testing
+requests==2.31.0
+urllib3==2.1.0
+
+# JSON handling and data validation
+jsonschema==4.20.0
+
+# Test reporting and logging
+allure-pytest==2.13.2
+pytest-json-report==1.5.0
+
+# Code quality and formatting
+black==23.11.0
+flake8==6.1.0
+pylint==3.0.3
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# Data manipulation and utilities
+pydantic==2.5.2
+faker==20.1.0
+
+# Performance testing (optional)
+locust==2.17.0
+
+# Development dependencies
+ipython==8.17.2
+notebook==7.0.6
